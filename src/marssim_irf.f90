@@ -2056,7 +2056,7 @@
         !        ********************************************************************
         !        Read in initial parameters & elevations and summarize
         !        ********************************************************************
-        CALL READ_INPUT_PARAMETERS(trim(INPUT_DIRECTORY_PATH))
+        CALL READ_INPUT_PARAMETERS()
         CALL SETUP_FLUVIAL_SLOPE_EROSION()
         SUBMERGED=.FALSE.
         !       **********************************************************************
